@@ -156,7 +156,7 @@ The screen should look like this
 
 ![Image of Datapower Reboot](/images/oauth20/result.png)
 
-##Additional Examples
+## Additional Examples
 
 The examples below are additional features of the oauth provider.
 
