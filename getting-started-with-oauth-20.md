@@ -54,11 +54,11 @@ Note: Base path must be unique. No two OAuth Provider objects can have the same 
     1.  Client Types: confidential enabled by default
     1.	Authorize Endpoint: /oauth2/authorize
     1.	Token Endpoint: /oauth2/token
+    1.  Token Introspection: default disabled
     1.  APIC Token Secret: oauth-default-key.  This corresponds to the shared secret key object created in DataPower. Toolkit creates a default SS key named “oauth-default-key”. This is not editable from UI at this point. If you need to change this, you have to go to the “definitions” folder in the toolkit and update the yaml, but you should also ensure to create the key file and object in DataPower.
     1.	Access Token TTL: default 3600 seconds
     1.	Maximum consent TTL: default 7200 seconds
     1.  Refresh Token: default disabled
-    1.  Token Introspection: default disabled
 
 7. Start the gateway if it is not already running.
 
